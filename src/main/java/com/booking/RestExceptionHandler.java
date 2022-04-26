@@ -8,7 +8,4 @@ import org.springframework.context.annotation.Configuration;
 @ConditionalOnClass(RestExceptionHandler.class)
 public class RestExceptionHandler {
 
-  @Autowired
-  RestExceptionHandler restExceptionHandler;
-
 }
